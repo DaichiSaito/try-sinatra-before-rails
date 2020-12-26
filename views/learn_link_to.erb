@@ -1,0 +1,14 @@
+<%
+  def link_to(text, url)
+    "<a href=#{url}>#{text}</a>"
+  end
+%>
+
+<html>
+<head>
+</head>
+<body>
+<h1>link_toはaタグを出力する単なるメソッドです</h1>
+<%= link_to('Google', 'https://google.com') %>
+</body>
+</html>
